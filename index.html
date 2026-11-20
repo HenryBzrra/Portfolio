@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="Henry Bezerra: Materials Engineering student, portfolio with projects, technologies and contact.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="icon" type="image/webp" href="assets/avatar.webp">
+<title>Henry Bezerra — Materials Engineering student</title>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@500;600;700&family=Bebas+Neue&family=Inter:wght@400;500&family=Oswald:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="bg-canvas"></canvas>
+<nav id="nav"><ul>
+<li><a href="#home" data-t="home">Home</a></li>
+<li><a href="#projects" data-t="projects">Projects</a></li>
+<li><a href="#contact" data-t="contact">Contact me</a></li>
+<li><a href="#about" data-t="about">About me</a></li>
+</ul></nav>
+<main>
+<header class="hero" id="home">
+<h1>HI, I’M HENRY</h1>
+<img id="hero-avatar" src="assets/avatar.webp" alt="Henry 3D Avatar" width="653" height="720">
+<div class="flank">
+<p class="tagline"><b>Engineering student</b> testing my knowledge of technologies</p>
+<a class="btn" href="#contact" data-t="contact">Contact me</a>
+</div>
+</header>
+
+<section class="pg" id="about"><div class="wrap">
+<h2 class="rv">About me</h2>
+<div class="about rv">
+<div class="glass"><p>Materials Engineering student at the Universidade Federal do ABC (UFABC), with professional experience in administrative operations and Customer Experience at FedEx.</p><p>Experienced in document management, operational processes, data organization, and administrative support. Familiar with Microsoft Excel, PowerPoint, Power BI, and Python.</p><p>My academic background includes laboratory experience in chemical solution preparation, dye adsorption studies, materials characterization fundamentals, and experimental data analysis using statistical methods such as Least Squares Regression.</p></div>
+<div class="glass"><ul class="chips"><li>Microsoft Excel</li><li>PowerPoint</li><li>Power BI</li><li>Python</li><li>Django</li><li>MySQL</li><li>SQL</li><li>Data analysis</li><li>Statistics</li><li>Laboratory experience</li><li>HTML</li><li>CSS</li><li>JavaScript</li></ul></div>
+</div></div></section>
+
+<section class="pg" id="projects"><div class="wrap">
+<h2 class="rv">Projects</h2>
+<div class="grid rv">
+<button class="card" data-title="Project one" data-desc="UFABC - ESTUDOS. Technologies: HTML, CSS, JS"><div class="thumb">01</div><div class="info"><h3>Project one</h3><p>UFABC - ESTUDOS</p><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JS</span></div></button>
+<button class="card" data-title="Project two" data-desc="RASTREADOR DE MOVIMENTO. Technologies: Python"><div class="thumb">02</div><div class="info"><h3>Project two</h3><p>RASTREADOR DE MOVIMENTO</p><span class="tag">Python</span></div></button>
+<button class="card" data-title="Project three" data-desc="NONE"><div class="thumb">03</div><div class="info"><h3>Project three</h3><p>NONE</p></div></button>
+</div></div></section>
+
+<!-- Seção nova, encaixada entre Projects e Contact. Reaproveita o .wrap, o h2 e o efeito .rv das outras seções,
+     então o espaçamento e a animação de entrada seguem o mesmo padrão da Home. -->
+<section class="pg" id="tech"><div class="wrap">
+<h2 class="rv">Technologies</h2>
+<div class="tech-view glass rv"><div class="tech-clip"><ul class="tech">
+<li><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3l1.6 17L12 22l6.4-2L20 3z"/><text class="f" x="12" y="16.5" text-anchor="middle" font-size="11">5</text></svg></span><span class="nm">HTML</span></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 3l1.6 17L12 22l6.4-2L20 3z"/><text class="f" x="12" y="16.5" text-anchor="middle" font-size="11">3</text></svg></span><span class="nm">CSS</span></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><text class="f" x="12" y="16.5" text-anchor="middle" font-size="11">JS</text></svg></span><span class="nm">JavaScript</span></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path class="f" d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg></span><span class="nm">Python</span></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><text class="f" x="12" y="16.5" text-anchor="middle" font-size="11">dj</text></svg></span><span class="nm">Django</span></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M3 5v14a9 3 0 0 0 18 0V5"/><path d="M3 12a9 3 0 0 0 18 0"/></svg></span><span class="nm">MySQL</span></li>
+</ul></div></div>
+</div></section>
+
+<section class="pg" id="contact"><div class="wrap">
+<h2 class="rv">Contact me</h2>
+<div class="contact rv">
+<div class="glass"><p>I’m currently open to new job opportunities, internships, and collaborative projects. If you have a role that matches my skills or want to discuss how I can add value to your team, feel free to reach out.</p>
+<ul class="socials"><li><a href="tel:+5511932198515"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></span><span>(11) 93219-8515</span></a></li><li><a href="mailto:henrybezerra16@gmail.com"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></span><span>henrybezerra16@gmail.com</span></a></li><li><a href="https://www.linkedin.com/in/henrybomfim/" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg></span><span>LinkedIn: henrybomfim</span></a></li><li><a href="https://github.com/HenryBzrra" target="_blank" rel="noopener"><span class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 16V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v9m16 0H4m16 0 1.28 2.55a1 1 0 0 1-.9 1.45H3.62a1 1 0 0 1-.9-1.45L4 16"/></svg></span><span>GitHub: HenryBzrra</span></a></li></ul></div>
+<form class="glass" id="form" novalidate>
+<label>Name<input name="n" required autocomplete="name"></label>
+<label>Email<input name="e" type="email" required autocomplete="email"></label>
+<label>Message<textarea name="m" rows="4" required></textarea></label>
+<button class="btn" type="submit">Send message</button>
+<p id="msg" role="status"></p>
+</form>
+</div></div></section>
+</main>
+<footer>© Henry Bezerra</footer>
+<dialog id="dlg"><h3 id="dt"></h3><p id="dd"></p><button class="btn" id="dc">Close</button></dialog>
+
+<script src="js/main.js"></script>
+</body>
+</html>
